@@ -27,3 +27,4 @@ coef(fw.lm)
 abline(coef(fw.lm),lty=1,col="blue")
 #plotting residuals
 plot(fw.lm,which=1)  
+print("This is done by Nikhil Srinivas M")
