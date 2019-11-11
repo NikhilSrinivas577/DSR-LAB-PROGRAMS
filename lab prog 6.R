@@ -9,7 +9,7 @@ y<-c(72,56,60,68,72,77)
 
 
 #below code is for iris dataset read from iris.csv
-k <- read.csv("C:/Users/jyothiramesh/Desktop/dsr/8836201-6f9306ad21398ea43cba4f7d537619d0e07d5ae3/iris.csv")
+k <- read.csv("C:/Users/NikhilSrinivas/Desktop/dsr/8836201-6f9306ad21398ea43cba4f7d537619d0e07d5ae3/iris.csv")
 k
 k1 <- k[,1:2]
 k1
@@ -47,4 +47,4 @@ points(cldata[km$cluster == 2,],col="blue")
 #below code is for iris data read from iris.csv file
 plot(k1[km$cluster ==1,],col="red",xlim=c(min(k1[,1]),max(k1[,1])),ylim=c(min(k1[,2]),max(k1[,2])))
 points(k1[km$cluster == 2,],col="blue")
-
+print("This is done by Nikhil Srinivas M")
