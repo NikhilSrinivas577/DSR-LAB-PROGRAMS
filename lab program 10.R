@@ -11,4 +11,4 @@ plot(Length~BOD,data=mf, main='plot1')
 plot.new()
 plot.new()
 plot(Length ~ NO3,data=mf,main='plot4')
-#Nikhil Srinivas M#
+print("This is done by Nikhil Srinivas M")
